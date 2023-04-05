@@ -1,0 +1,27 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 15rem;
+  text-align: center;
+}
+
+.header__temp {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.header__icon {
+  font-size: 5rem;
+  margin-right: 1rem;
+}
+
+.header__text {
+  margin: 0;
+  font-weight: bold;
+}

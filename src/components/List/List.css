@@ -1,0 +1,19 @@
+.list {
+  padding: 0;
+}
+
+.list__item {
+  list-style: none;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
+  width: 14rem;
+  position: relative;
+}
+
+.item__delete-button {
+  font-weight: bold;
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+}

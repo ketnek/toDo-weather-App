@@ -40,6 +40,7 @@ function App() {
   //used in Form
   const handleAddActivity = (newActivity) => {
     setActivities([...activities, { id: uid(), ...newActivity }]);
+    console.log(newActivity);
   };
 
   const handleDeleteActivity = (id) => {

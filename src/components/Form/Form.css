@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form__fieldset-legend {
+  margin-bottom: 1rem;
+}
+
+.form__button {
+  margin-top: 1rem;
+}
